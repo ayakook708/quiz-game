@@ -41,7 +41,6 @@
     } else {
       window.alert("不正解！\n" + quiz[quizIndex].comment);
     }
-    console.log(quiz[quizIndex].comment);
     quizIndex++;
     if (quizIndex < quiz.length) {
       setupQuiz();
